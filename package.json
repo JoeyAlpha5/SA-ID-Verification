@@ -1,6 +1,6 @@
 {
   "name": "sa-id-verification",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Verify South African ID numbers and extract age, gender and citizen status.",
   "main": "index.js",
   "scripts": {

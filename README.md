@@ -13,7 +13,7 @@ npm install sa-id-verification
 ```javascript
 import SouthAfricanID from 'sa-id-verification';
 // id_number must be a 13 digit string
-var south_african_id = SouthAfricanID(id_number);
+var south_african_id = new SouthAfricanID(id_number);
 ```
 
 
