@@ -1,0 +1,23 @@
+{
+  "name": "sa-id-verification",
+  "version": "1.0.0",
+  "description": "Verify South African ID numbers and extract age, gender and citizen status.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeyAlpha5/SA-ID-Verification.git"
+  },
+  "keywords": [
+    "south african id",
+    "id verification"
+  ],
+  "author": "Jalome Chirwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeyAlpha5/SA-ID-Verification/issues"
+  },
+  "homepage": "https://github.com/JoeyAlpha5/SA-ID-Verification#readme"
+}
