@@ -1,6 +1,6 @@
 # SA-ID-Verification
 
-## Verify South African ID numbers and extract age, gender and citizen status.
+Verify South African ID numbers and extract age, gender and citizen status.
 
 ## installation
 ```javascript
