@@ -39,5 +39,5 @@ var citezen_status = south_african_id.getCitizenStatus();
 ## Extract age
 ```javascript
 //  extract age from id number
-var age = south_african_id.age;
+var age = south_african_id.getAge();
 ```

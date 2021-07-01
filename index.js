@@ -23,10 +23,21 @@ class SouthAfricanID{
         }else{
             this.year = `19${first_digits}`;
         }
+    }
 
-        //get age
-        this.age = new Date().getFullYear() - Number(this.year); 
+    // get user's age
+    getAge(){
+        var today = new Date();
+        var current_year = today.getFullYear()
+        // get the current month
+        var current_month = today.getMonth()+1;
+        //  get the day 
+        var current_day = today.getDate()
 
+        if(current_month > this.month )return current_year- this.year;
+        if(current_month == this.month && current_day >= this.day) return current_year- this.year;
+            
+        return (current_year-this.year)-1;
     }
 
     // get gender
